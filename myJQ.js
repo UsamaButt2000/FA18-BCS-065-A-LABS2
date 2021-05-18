@@ -16,8 +16,6 @@ jQuery(document).ready(function($) {
         }
     });
 
-
-
     $('.btn_2').click(function() {
         $.ajax({
             type: "GET",
@@ -32,7 +30,6 @@ jQuery(document).ready(function($) {
                         '</p> <p class="last_name ">' + temp.data[count].last_name +
                         '</p> <p class="av_email">' + temp.data[count].email + '</p> </div>');
                 }
-
             }
         });
         $('.btn_2').hide();
@@ -53,12 +50,9 @@ jQuery(document).ready(function($) {
                         '</p> <p class="last_name ">' + temp.data[count].last_name +
                         '</p> <p class="av_email">' + temp.data[count].email + '</p> </div>');
                 }
-
             }
         });
-
         $('.btn_1').hide();
         $('.btn_2').show();
     });
-
 });
