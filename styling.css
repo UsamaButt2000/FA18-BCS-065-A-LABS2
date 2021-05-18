@@ -1,0 +1,26 @@
+body {
+    background-color: salmon;
+}
+
+.footer {
+    display: block;
+    padding: 0%;
+    background-color: cornflowerblue;
+    position: relative;
+    float: inline-end;
+    margin: 0 auto;
+    width: max-content;
+    ;
+}
+
+.btn_1 {
+    background-color: aqua;
+    border: black;
+    display: inline-block;
+}
+
+.btn_2 {
+    background-color: aqua;
+    border: black;
+    display: inline-block;
+}
